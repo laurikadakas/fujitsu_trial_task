@@ -8,6 +8,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class FujitsuTrialTaskApplication {
 
+	// TODO: Create SQL files for the H2 database.
+
 	public static void main(String[] args) {
 		SpringApplication.run(FujitsuTrialTaskApplication.class, args);
 	}
